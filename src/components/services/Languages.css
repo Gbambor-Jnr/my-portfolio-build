@@ -1,0 +1,64 @@
+.language__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.language__action {
+  display: flex;
+  background: var(--color-bg-variant);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.language__action:hover {
+  background: transparent;
+  transition: var(--transition);
+  border: 0.1px solid grey;
+}
+
+.language__action > div {
+  position: absolute;
+  margin: -1% 10% 0%;
+}
+.languages {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 1rem;
+  margin: 1rem 7rem;
+}
+
+.language__icon {
+  color: var(--color-primary);
+
+  margin: 2.7rem 0rem 1rem 0rem;
+}
+.language__head {
+  padding: 1rem;
+}
+
+/* ============MEDIA QUERIES (MEDIUM DEVICES LIKE TABLETS) */
+@media screen and (max-width: 1024px) {
+  .language__container {
+    grid-template-columns: 1fr;
+  }
+  .language__action > div {
+    width: 90%;
+  }
+}
+
+/* ============MEDIA QUERIES (SMALL DEVICES LIKE MOBILE PHONES) */
+@media screen and (max-width: 600px) {
+  .language__container {
+    grid-template-columns: 1fr;
+  }
+
+  .language__action {
+    padding: 2rem 2rem;
+    width: 70%;
+    margin: 1rem 1rem;
+  }
+  .language__action > div {
+    position: absolute;
+    margin-top: -1rem;
+    width: 100%;
+  }
+}

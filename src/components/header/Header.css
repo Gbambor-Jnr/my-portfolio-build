@@ -62,18 +62,14 @@ header {
 }
 
 /* ============MEDIA QUERIES (MEDIUM DEVICES LIKE TABLETS) */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
-}
+} */
 
 /* ============MEDIA QUERIES (SMALL DEVICES LIKE MOBILE PHONES) */
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
-
   .header__socials,
   .scroll__down {
     display: none;

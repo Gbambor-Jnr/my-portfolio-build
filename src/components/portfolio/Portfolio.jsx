@@ -26,35 +26,6 @@ const data = [
     github: "https://github.com/Gbambor-Jnr/covid-tracker",
     demo: "https://covid-tracker-d2a15.web.app/",
   },
-
-  {
-    id: "e2",
-    image: Img2,
-    title: "React Food Order App",
-    github: "https://github.com/Gbambor-Jnr/my-food-app",
-    demo: " https://gbambor-jnr.github.io/my-food-app/",
-  },
-  {
-    id: "e3",
-    image: Img3,
-    title: "Weather App with React",
-    github: "https://github.com/Gbambor-Jnr/weather-app",
-    demo: "https://gbambor-jnr.github.io/weather-app/",
-  },
-  {
-    id: "e4",
-    image: Img8,
-    title: "Translator App with React",
-    github: "https://github.com/Gbambor-Jnr/language-translator",
-    demo: "https://gbambor-jnr.github.io/language-translator/",
-  },
-  {
-    id: "e5",
-    image: Img5,
-    title: "Netflix Clone with React",
-    github: "https://github.com/Gbambor-Jnr/netflix-clone",
-    demo: "https://reactfilms-33015.web.app/welcome",
-  },
   {
     id: "e6",
     image: Img6,
@@ -63,20 +34,50 @@ const data = [
     demo: " https://gbambor-jnr.github.io/whatsapp-clone/",
   },
   {
+    id: "e5",
+    image: Img5,
+    title: "Netflix Clone with React",
+    github: "https://github.com/Gbambor-Jnr/My-Netflix-clone",
+    demo: "https://gbambor-jnr.github.io/My-Netflix-clone/",
+  },
+  {
     id: "e7",
     image: Img9,
-    title: "Quiz Game/App With Typescript",
+    title: " Typescript Quiz App",
     github: "https://github.com/Gbambor-Jnr/Quz-App",
     demo: "https://gbambor-jnr.github.io/Quz-App/",
   },
+
+  //   {
+  //     id: "e2",
+  //     image: Img2,
+  //     title: "React Food Order App",
+  //     github: "https://github.com/Gbambor-Jnr/my-food-app",
+  //     demo: " https://gbambor-jnr.github.io/my-food-app/",
+  //   },
+  //   {
+  //     id: "e3",
+  //     image: Img3,
+  //     title: "Weather App with React",
+  //     github: "https://github.com/Gbambor-Jnr/weather-app",
+  //     demo: "https://gbambor-jnr.github.io/weather-app/",
+  //   },
   {
-    id: "e2",
-    image: Img1,
-    title: " Javascript Calculator/Projects",
-    github:
-      "https://github.com/Gbambor-Jnr/Starter-for-Javascript-calculator/tree/main/starter",
-    demo: "https://gbambor-jnr.github.io",
+    id: "e4",
+    image: Img8,
+    title: "Translator App with React",
+    github: "https://github.com/Gbambor-Jnr/language-translator",
+    demo: "https://gbambor-jnr.github.io/language-translator/",
   },
+
+  //   {
+  //     id: "e2",
+  //     image: Img1,
+  //     title: " Javascript Calculator/Projects",
+  //     github:
+  //       "https://github.com/Gbambor-Jnr/Starter-for-Javascript-calculator/tree/main/starter",
+  //     demo: "https://gbambor-jnr.github.io",
+  //   },
 ];
 
 function Portfolio() {

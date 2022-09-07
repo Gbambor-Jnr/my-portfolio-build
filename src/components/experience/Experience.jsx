@@ -43,7 +43,7 @@ function Experience() {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__icon" />
               <div>
-                <h4>REACT TYPESCRIPT</h4>
+                <h4>REACT-TYPESCRIPT</h4>
                 <small className="text-light">Knowledgeable</small>
               </div>
             </article>
